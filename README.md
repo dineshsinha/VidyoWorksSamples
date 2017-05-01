@@ -1,6 +1,6 @@
-#VidyoWorksSamples
+#**VidyoWorksSamples**
 
-##List of Samples
+##**List of Samples**
 
 ---
 
