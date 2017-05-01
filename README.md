@@ -3,7 +3,7 @@
 ##List of Samples
 
 *###[Android Samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android)
-	*[Android\VcSimpleRoomLink](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleRoomLink)
+	*[Android\VcSimpleRoomLink](tree/master/Android/VcSimpleRoomLink)
 	 Hello World of Android Samples. Android sample to join a room using room link.
 
 	*[Android\VcSimpleRoomLink64Or32](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleRoomLink64Or32)
