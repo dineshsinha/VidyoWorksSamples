@@ -3,8 +3,8 @@ Every sample has their own ReadMe.txt
 
 ##List of Samples
 
-*Android Samples
-	*Android\VcSimpleRoomLink
+*###[Android Samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android)
+	*[Android\VcSimpleRoomLink](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleRoomLink)
 	 Hello World of Android Samples. Android sample to join a room using room link.
 
 	*Android\VcSimpleRoomLink64Or32
