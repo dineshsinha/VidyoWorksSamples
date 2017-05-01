@@ -4,11 +4,11 @@
 
 ---
 
-*###[Android Samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android)
-	*[Android\VcSimpleRoomLink](tree/master/Android/VcSimpleRoomLink)
+.*[Android Samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android)
+..*[Android\VcSimpleRoomLink](tree/master/Android/VcSimpleRoomLink)
 	 Hello World of Android Samples. Android sample to join a room using room link.
 
-	*[Android\VcSimpleRoomLink64Or32](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleRoomLink64Or32)
+..*[Android\VcSimpleRoomLink64Or32](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleRoomLink64Or32)
 	Android sample based on VcSimpleRoomLink. This runs both in 32 and 64 bit mode.
 
 	*[Android\VcSimpleSample](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Android/VcSimpleSample)
