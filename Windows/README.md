@@ -14,5 +14,8 @@ A reference sample that joins a room and does multiple other actions
 ..*[SimpleRawFrame](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/SimpleRawFrame)
 Dot net sample that implements custom render using raw frames.
 
+..*[SimpleRawFrame](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/DotNetShare)
+Dot net sample that shows how to do desktop sharing.
+
 
 
