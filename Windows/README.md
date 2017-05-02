@@ -1,5 +1,5 @@
 
-.*[Windows Dot Net samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows)
+.*[Windows and .Net samples](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows)
 
 ..*[DotNet](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/DotNet)
 Sample to join room
@@ -14,7 +14,7 @@ A reference sample that joins a room and does multiple other actions
 ..*[SimpleRawFrame](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/SimpleRawFrame)
 Dot net sample that implements custom render using raw frames.
 
-..*[SimpleRawFrame](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/DotNetShare)
+..*[DotNetShare](https://github.com/dineshsinha/VidyoWorksSamples/tree/master/Windows/DotNetShare)
 Dot net sample that shows how to do desktop sharing.
 
 
