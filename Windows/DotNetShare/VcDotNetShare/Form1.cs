@@ -150,16 +150,17 @@ namespace VidyoClientCS
                 case Vidyo32.VidyoClientOutEvent.VIDYO_CLIENT_OUT_EVENT_MUTED_VIDEO:
                     {
                         Vidyo32.VidyoClientOutEventMuted muteInfo = (Vidyo32.VidyoClientOutEventMuted)Marshal.PtrToStructure(param, typeof(Vidyo32.VidyoClientOutEventMuted));
-                        if (muteInfo.isMuted == Vidyo32.VidyoBool.VIDYO_TRUE)
+                        if (muteInfo.isMuted == (byte)Vidyo32.VidyoBool.VIDYO_TRUE)
                             SetFlag(cVideoMuted);
                         else
                             ClearFlag(cVideoMuted);
                     }
                     break;
                 case Vidyo32.VidyoClientOutEvent.VIDYO_CLIENT_OUT_EVENT_MUTED_AUDIO_IN:
+                case Vidyo32.VidyoClientOutEvent.VIDYO_CLIENT_OUT_EVENT_MUTED_SERVER_AUDIO_IN:                
                     {
                         Vidyo32.VidyoClientOutEventMuted muteInfo = (Vidyo32.VidyoClientOutEventMuted)Marshal.PtrToStructure(param, typeof(Vidyo32.VidyoClientOutEventMuted));
-                        if (muteInfo.isMuted == Vidyo32.VidyoBool.VIDYO_TRUE)
+                        if (muteInfo.isMuted == (byte)Vidyo32.VidyoBool.VIDYO_TRUE)
                             SetFlag(cMicMuted);
                         else
                             ClearFlag(cMicMuted);
@@ -426,7 +427,7 @@ namespace VidyoClientCS
         private void buttonMuteMic_Click(object sender, EventArgs e)
         {
             Vidyo32.VidyoClientInEventMute mute = new Vidyo32.VidyoClientInEventMute();
-            mute.isMuted = (IsFlagSet(cMicMuted)) ? Vidyo32.VidyoBool.VIDYO_TRUE : Vidyo32.VidyoBool.VIDYO_FALSE;
+            mute.isMuted = (IsFlagSet(cMicMuted)) ? Vidyo32.VidyoBool.VIDYO_FALSE : Vidyo32.VidyoBool.VIDYO_TRUE;
             int Gsize = Marshal.SizeOf(mute);
             IntPtr Gptr = Marshal.AllocCoTaskMem(Gsize);
             Marshal.StructureToPtr(mute, Gptr, false);

@@ -3482,7 +3482,7 @@ namespace VGUClientLogic
         [StructLayout(LayoutKind.Sequential)]
         public struct VidyoClientOutEventMuted
         {
-            public VidyoBool isMuted;
+            public byte isMuted;
             public uint errorCode;
         };
 
